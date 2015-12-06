@@ -1,10 +1,12 @@
 PODS:
-  - ChiefTags (0.1.0)
+  - ChiefTags (0.1.0):
+    - UICollectionViewLeftAlignedLayout
   - FBSnapshotTestCase (2.0.7):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
+  - UICollectionViewLeftAlignedLayout (1.0.1)
 
 DEPENDENCIES:
   - ChiefTags (from `../`)
@@ -15,7 +17,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ChiefTags: 8a6e5b47107742063d4058baba7cf09f864e602e
+  ChiefTags: 2087a221868408316bd86e96dd362726c0cfa461
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  UICollectionViewLeftAlignedLayout: 6d10790db3e07958d91bd910d8b8e9dad952b1ef
 
 COCOAPODS: 0.39.0

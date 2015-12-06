@@ -22,5 +22,10 @@
     "ChiefTags": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "UICollectionViewLeftAlignedLayout": [
+
+    ]
   }
 }

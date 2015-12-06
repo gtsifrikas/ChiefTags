@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ChiefTags_Example/ChiefTags.framework"
+  install_framework "Pods-ChiefTags_Example/UICollectionViewLeftAlignedLayout.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ChiefTags_Example/ChiefTags.framework"
+  install_framework "Pods-ChiefTags_Example/UICollectionViewLeftAlignedLayout.framework"
 fi

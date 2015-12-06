@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UICollectionViewLeftAlignedLayout
 
  public class ChiefTags: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
@@ -52,8 +53,8 @@ import UIKit
     }
     
     private func setUp() {
-        let standardLayout = UICollectionViewFlowLayout()
-        self.collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: standardLayout)
+//        let standardLayout = UICollectionViewFlowLayout()
+        self.collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: UICollectionViewLeftAlignedLayout())
         self.collectionView!.delegate = self
         self.collectionView!.dataSource = self
         self.collectionView!.showsHorizontalScrollIndicator = false
