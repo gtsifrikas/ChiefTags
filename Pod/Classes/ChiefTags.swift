@@ -87,12 +87,8 @@ import UICollectionViewLeftAlignedLayout
         cellToConfigure.fontFamily = self.fontFamily
         cellToConfigure.fontSize = self.fontSize
         cellToConfigure.textColor = self.selectedTags.contains(indexPath.row) ? self.textColorSelected : self.textColor
-        cellToConfigure.backgroundColor = self.selectedTags.contains(indexPath.row) ? self.tagSelectedColor : self.tagColor
+        cellToConfigure.contentView.backgroundColor = self.selectedTags.contains(indexPath.row) ? self.tagSelectedColor : self.tagColor
         cellToConfigure.title = self.tags[indexPath.row]
-        cellToConfigure.layer.cornerRadius = 3
-        cellToConfigure.layer.masksToBounds = true
-        cellToConfigure.layer.rasterizationScale = UIScreen.mainScreen().scale
-        cellToConfigure.layer.shouldRasterize = true
         return cellToConfigure
     }
     
@@ -138,6 +134,9 @@ import UICollectionViewLeftAlignedLayout
             self.selectedTags += [indexPath.row]
             self.delegate?.tagSelected(atIndex: indexPath.row)
         }
+        
+        self.collectionView?.cellForItemAtIndexPath(indexPath)!.CustomPop()
+        
         self.configureCell(self.collectionView!.cellForItemAtIndexPath(indexPath)!, cellForItemAtIndexPath: indexPath)
     }
 }
