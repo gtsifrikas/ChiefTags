@@ -33,7 +33,7 @@ import UIKit
     
     var delegate:ChiefTagsViewDelegate?
     
-    var tags:[String] = [] {
+    public var tags:[String] = [] {
         didSet {
             self.createTags()
         }
