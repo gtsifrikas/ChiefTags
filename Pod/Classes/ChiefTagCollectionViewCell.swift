@@ -47,7 +47,6 @@ class ChiefTagCollectionViewCell: UICollectionViewCell {
         self.titleLabelRef?.textAlignment = .Center
         self.contentView.addSubview(titleLabel)
         self.contentView.layer.cornerRadius = 3
-        self.contentView.layer.masksToBounds = true
     }
     
     override func layoutSubviews() {

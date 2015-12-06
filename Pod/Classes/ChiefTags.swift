@@ -134,9 +134,7 @@ import UICollectionViewLeftAlignedLayout
             self.selectedTags += [indexPath.row]
             self.delegate?.tagSelected(atIndex: indexPath.row)
         }
-        
-        self.collectionView?.cellForItemAtIndexPath(indexPath)!.CustomPop()
-        
+                
         self.configureCell(self.collectionView!.cellForItemAtIndexPath(indexPath)!, cellForItemAtIndexPath: indexPath)
     }
 }
