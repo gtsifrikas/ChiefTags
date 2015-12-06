@@ -1,0 +1,21 @@
+PODS:
+  - ChiefTags (0.1.0)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ChiefTags (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ChiefTags:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ChiefTags: 8a6e5b47107742063d4058baba7cf09f864e602e
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+
+COCOAPODS: 0.39.0

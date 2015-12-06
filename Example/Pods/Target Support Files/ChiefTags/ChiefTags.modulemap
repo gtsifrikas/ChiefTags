@@ -1,0 +1,6 @@
+framework module ChiefTags {
+  umbrella header "ChiefTags-umbrella.h"
+
+  export *
+  module * { export * }
+}

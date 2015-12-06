@@ -22,7 +22,7 @@ pod "ChiefTags"
 
 ## Author
 
-Tsif, gtsifrikas@gmail.com
+George Tsifrikas, gtsifrikas@gmail.com
 
 ## License
 
